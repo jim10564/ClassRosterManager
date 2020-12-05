@@ -1,0 +1,39 @@
+CS-242 Programming Project4 - Rubric 
+Total Points = 60 Project + 15 Reflective Writing Document
+
+Program is an enhancement/modification of Project#3 -
+15 points for functiong per Project#3 
+
+5 points for setting up Queue in WaitList roster
+
+Validations done for User Input - 10 points (5 for Validation of studentID + 5 for Validation of Year)
+
+Validation of studentID
+student ID -- should not already exist in either Class Roster or Wait-list Roster
+
+Validation of Year
+
+Year -- Should be entered as Freshmen, Sophomore, Junior, or Senior
+(You may decide that only first letter or first 2 letters of Freshmen, Sophomore, Junior, or Senior are valid user inputs, for example:
+(F)reshmen, (S)ophomore, (J)unior, (S)enior      OR  (Fr)eshmen, (So)phomore, (Ju)nior, (Se)nior )
+
+
+Correct logic for find and Drop a student in Class Roster and Wait-list Roster - 10 points
+
+
+Control works seamlessly between menu options - 10 points
+
+10 points for documentation and good programming
+(Documentation per JavaDoc requirements - Author name and Date in the driver class.
+Each method has method description and @param and @return comments
+No unnecessary inline comments.
+Programming Instructions have been followed.
+Variables should have meaningful names.
+Code should speak for itself!! )
+
+Others:
+Extra Credits: +5 points for early submission by 3 days (Friday October 30, End of Day)
+With due access provided on GitLab.
+
+5 points deducted per day for late submission.
+
