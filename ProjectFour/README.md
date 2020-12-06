@@ -1,4 +1,4 @@
-## CS242 – Fall 2020
+
 
 # Programming Project 4 – Queues in Java
 
@@ -8,11 +8,11 @@ The objective of this Programming Project is to apply the concepts of Queues in 
 
 ### Program Description
 
-Implement a project to manage two lists  of the students' roster with one list implemented as a Queue ADT. One  list represents the students who are are registered in the class and hence are on the class roster. The other list should represent the students who could not get into course and hence are on the Wait-list of the course. Students who are on the wait-list should be enlisted as a Queue ADT with First-in First-out order. Students who are enlisted first on the Wait-list get a chance on the main class roster first, when there is availability on the main class roster.
+This project manages two lists  of the students' roster with one list implemented as a Queue ADT. One  list represents the students who are are registered in the class and hence are on the class roster. The other list should represent the students who could not get into course and hence are on the Wait-list of the course. Students who are on the wait-list should be enlisted as a Queue ADT with First-in First-out order. Students who are enlisted first on the Wait-list get a chance on the main class roster first, when there is availability on the main class roster.
 
 **Conditions for adding students on to both the lists:**
 
-For this project, you may assume the linked list size of Class Roster as 5. When the Class Roster linked list size is full, next student to be added is to be added on the Wait-list roster. The student gets added at the end of the Wait-list roster.
+For this project, the linked list size of Class Roster as 5. When the Class Roster linked list size is full, next student to be added is to be added on the Wait-list roster. The student gets added at the end of the Wait-list roster.
 
 **Validations for User Input:**
 
@@ -28,7 +28,7 @@ Year -- Should be entered as Freshmen, Sophomore, Junior, or Senior
 
 There should be menu options that allow students to be dropped out of any of the two lists. If the student drops out of Class Roster, then the first element on Wait-list roster should be removed and added to the Class Roster. In this implementation, only first student would be able to drop out from Wait--list roster!! Write a suitable message for this. (Search is done with the Student ID.)
 
-**You must write following methods for following menu options:**
+**The user can choose from the following menu options:**
 
 • Find a Student
 
@@ -39,41 +39,6 @@ There should be menu options that allow students to be dropped out of any of the
 • Print all Students (Both Class Roster and on Wait-List)
 
 • Quit
-
-A skeleton  program is given to you. This file has a main method. and Student class.
-All of your java files should be inside **package com.wsu.cs** which is inside **src** subfolder, of your project
-
-If you use **IntelliJ IDE**,  it will set up this way automatically for you.
-
-**This project is intended to be done as an individual.**
-
-### Deliverable
-
-### Submit Program
-
- In order to **submit your program**, you will have to:
-
-1. Fork Programming Project4 from [https://gitlab.com/worcester/cs/cs-242-01-02-03-fall-2020/cs-242-programming-project4](https://gitlab.com/worcester/cs/cs-242-01-02-03-fall-2020/cs-242-programming-project4) to your namespace.
-
-2. Clone it to your local repository.
-
-3. Commit and Push your  final repository to GitLab.
-
-4. Make sure that you add the Instructor (snagpal) as the *Maintainer / Developer*.
-
-### Submit Reflective Writing Document
-
-In order to **submit your reflective writing document**, you will have to:
-
-1. Answer the questions in the CS242-Project4_Reflective Writing.docx
-
-2. Upload it on Blackboard under ProgrammingProject#4.
-
-### Due Date
-
-Monday, November 2, 2020, End of Day.
-
-## Copyright and License
 
 #### &copy; 2020 S Nagpal, Worcester State University
 
